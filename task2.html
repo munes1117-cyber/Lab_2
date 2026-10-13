@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style = "background-color:pink;">
+    <h1>Conference Registration Form</h1>
+    <form action="">
+        Full Name : <br>
+        <input type="text" name="fullname" placeholder="Enter your full name">
+       <br>
+        Email Address : <br>
+        <input type="text" name="address" placeholder="Enter your full email">
+       <br>
+       Age : <br>
+        <input type="number" id="age" name="age" min="18" max="99" required >
+       <br>
+
+       Gender:
+       <br>
+       <input type="radio"
+       name="gender"
+       value="male">Male
+       <br>
+       <input type="radio"
+       name="gender"
+       value="Female">Female
+       <br>
+
+       Country of Residence:
+       <br>
+       <select name="country" id="country">
+       <option value="malaysia">MALAYSIA</option>
+       <option value="australia">AUSTRALIA</option>
+       <option value="dubai">DUBAI</option>
+       <option value="india">INDIA</option>
+       </select><br>
+     <br>
+
+     Area of Interest:
+     <br>
+       <input type="checkbox" id="Interest1" name="Software Development" value="SD">
+       <label for="SD">Software Development</label><br>
+        <input type="checkbox" id="Interest2" name="Data Science" value="DS">
+       <label for="SD">Data Science</label><br>
+        <input type="checkbox" id="Interest3" name="Cyber Security" value="C">
+       <label for="SD">Cybersecurity</label><br>
+       <input type="checkbox" id="Interest4" name="SArtifical Intelligence" value="AI">
+       <label for="SD">Artifical Intelligence</label><br>
+     <br>
+     
+    Experience Level :
+    <br>
+  <input type="radio" id="b1" name="beginner" value="Beginner">
+  <label for="b1">Beginner</label><br>
+  <input type="radio" id="b2" name="intermediate" value="Intermediate">
+  <label for="b2">Intermediate</label><br>  
+  <input type="radio" id="b3" name="advanced" value="Advanced">
+  <label for="b3">Advanced</label><br>
+  <br>
+
+<p><label for="Comment">Comments or Questions:</label></p>
+  <textarea id="comment" name="Comment" rows="4" cols="50">Any Comments or Question?</textarea>
+  <br>
+  <button class="register">Register</button>
+  <button class="reset">Reset</button>
+</form>
+
+</body>
+</html>
